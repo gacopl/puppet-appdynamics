@@ -1,0 +1,5 @@
+appdynamics::agent::machine::agent_base: "C:/AppDynamics"
+appdynamics::agent::machine::agent_installer: machineagent-bundle-64bit-windows-4.5.17.2418.zip
+
+appdynamics::agent::database::agent_base: "C:/AppDynamics"
+appdynamics::agent::database::agent_installer: db-agent-64bit-windows-4.5.16.1568.zip

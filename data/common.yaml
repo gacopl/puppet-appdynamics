@@ -1,0 +1,30 @@
+# Machine Agent
+appdynamics::agent::machine::s3_bucket_name: null
+appdynamics::agent::machine::s3_bucket_folder: null
+appdynamics::agent::machine::controller_host: null
+appdynamics::agent::machine::controller_port: 80
+appdynamics::agent::machine::controller_ssl_enabled: false
+appdynamics::agent::machine::account_name: null
+appdynamics::agent::machine::account_access_key: null
+appdynamics::agent::machine::agent_present: true
+appdynamics::agent::machine::agent_base: "/opt/AppDynamics"
+appdynamics::agent::machine::agent_installer: machineagent-bundle-64bit.zip
+
+appdynamics::agent::machine::sim_enabled: true
+appdynamics::agent::machine::app: ''
+appdynamics::agent::machine::tier: ''
+appdynamics::agent::machine::node_name: ''
+appdynamics::agent::machine::force_agent_registration: false
+appdynamics::agent::machine::enable_orchestration: false
+
+#Database Agent
+appdynamics::agent::database::s3_bucket_name: null
+appdynamics::agent::database::s3_bucket_folder: null
+appdynamics::agent::database::controller_host: null
+appdynamics::agent::database::controller_port: 80
+appdynamics::agent::database::controller_ssl_enabled: false
+appdynamics::agent::database::account_name: null
+appdynamics::agent::database::account_access_key: null
+appdynamics::agent::database::agent_present: true
+appdynamics::agent::database::agent_base: "/opt/AppDynamics"
+appdynamics::agent::database::agent_installer: db-agent-64bit.zip
